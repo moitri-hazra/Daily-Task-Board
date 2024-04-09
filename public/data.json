@@ -1,0 +1,144 @@
+[
+    {
+      "id": "1",
+      "type": "Guest",
+      "name": "Room Cleaning",
+      "deadline": "2024-04-09T10:00:00",
+      "from": "Guest",
+      "to": "Housekeeping",
+      "status": "Accepted",
+      "instruction": "Clean room thoroughly",
+      "itemRequest": {
+        "shampoo": 1,
+        "conditioner": 1,
+        "towel": 4
+      },
+      "feedback": [],
+      "creatorName": "John",
+      "recurring": false
+    },
+    {
+      "id": "2",
+      "type": "Internal",
+      "name": "Routine Inspection",
+      "deadline": "2024-04-09T10:00:00",
+      "from": "Manager",
+      "to": "Maintenance",
+      "status": "Ongoing",
+      "instruction": "Inspect room fixtures",
+      "itemRequest": {},
+      "feedback": [],
+      "creatorName": "Alice",
+      "recurring": true
+    },
+    {
+      "id": "3",
+      "type": "Guest",
+      "name": "Bathroom Cleaning",
+      "deadline": "2024-04-09T10:00:00",
+      "from": "Guest",
+      "to": "Housekeeping",
+      "status": "Completed",
+      "instruction": "Clean bathroom thoroughly",
+      "itemRequest": {
+        "soap": 5,
+        "towel": 12,
+        "toiletPaper": 10
+      },
+      "feedback": ["Delayed"],
+      "creatorName": "Sarah",
+      "recurring": false
+    },
+    {
+      "id": "4",
+      "type": "Internal",
+      "name": "Inventory Check",
+      "deadline": "2024-04-08T10:00:00",
+      "from": "Manager",
+      "to": "Housekeeping",
+      "status": "Scheduled",
+      "instruction": "Check inventory levels",
+      "itemRequest": {},
+      "feedback": [],
+      "creatorName": "Bob",
+      "recurring": true
+    },
+    {
+      "id": "5",
+      "type": "Guest",
+      "name": "Bed Linen Change",
+      "deadline": "2024-04-08T10:00:00",
+      "from": "Guest",
+      "to": "Housekeeping",
+      "status": "Completed",
+      "instruction": "Change bed linens",
+      "itemRequest": {
+        "bedsheets": null,
+        "pillowcases": null
+      },
+      "feedback": ["Delayed", "Complaint"],
+      "creatorName": "Alice",
+      "recurring": false
+    },
+    {
+      "id": "6",
+      "type": "Guest",
+      "name": "Trash Collection",
+      "deadline": "2024-04-10T09:00:00",
+      "from": "Guest",
+      "to": "Housekeeping",
+      "status": "Not Accepted",
+      "instruction": "Collect trash from room",
+      "itemRequest": {},
+      "feedback": [],
+      "creatorName": "Michael",
+      "recurring": false
+    },
+    {
+      "id": "7",
+      "type": "Internal",
+      "name": "Staff Meeting",
+      "deadline": "2024-04-11T14:00:00",
+      "from": "Manager",
+      "to": "All Staff",
+      "status": "Scheduled",
+      "instruction": "Discuss monthly performance",
+      "itemRequest": {},
+      "feedback": [],
+      "creatorName": "Emily",
+      "recurring": true
+    },
+    {
+      "id": "8",
+      "type": "Guest",
+      "name": "Room Service",
+      "deadline": "2024-04-12T11:00:00",
+      "from": "Guest",
+      "to": "Room Service",
+      "status": "Accepted",
+      "instruction": "Deliver breakfast to room",
+      "itemRequest": {
+        "coffee": 2,
+        "croissants": 3,
+        "orangeJuice": 1
+      },
+      "feedback": [],
+      "creatorName": "Sophia",
+      "recurring": false
+    },
+    {
+      "id": "9",
+      "type": "Internal",
+      "name": "Training Session",
+      "deadline": "2024-04-13T09:00:00",
+      "from": "Manager",
+      "to": "New Hires",
+      "status": "Scheduled",
+      "instruction": "Conduct training for new hires",
+      "itemRequest": {},
+      "feedback": [],
+      "creatorName": "David",
+      "recurring": true
+    }
+  ]
+  
