@@ -10,7 +10,7 @@ Nami Daily Task Manager is a web application designed to help users manage their
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
