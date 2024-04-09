@@ -42,11 +42,9 @@ To run the Nami Daily Task Manager locally, follow these steps:
 
 ## Usage
 
-1. Sign in to your Nami Daily Task Manager account.
-2. Use the sidebar (desktop mode) or burger stack (mobile mode) to navigate to different sections of the application.
 3. Filter tasks based on their status using the FilterElements component.
 4. View and manage your tasks in the TaskCard component.
-5. Receive notifications for updates or changes to your tasks.
+
 
 ## Contributing
 
